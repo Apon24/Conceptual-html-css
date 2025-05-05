@@ -1,3 +1,65 @@
-h1{
-    color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+ font-family: "Lato", sans-serif;
 }
+
+.hero {
+  background-image: url('../images/weather.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero h1 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 250;
+  padding-top: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.article {
+ width: 80%;
+ /* margin-left: auto;
+ margin-right: auto;
+ margin-top: 40px;
+ margin-bottom: 60px; */
+ margin: 40px auto;
+ padding: 30px;
+background-color: mediumseagreen;
+border-width: 10px;
+border-color: darkgreen;
+border-style: solid;
+
+}
+/* #one
+{
+  text-align: center;
+  margin-bottom: 10px;
+} */
+ .article h2{
+       text-align: center;
+       border-width: 5px;
+       border-color: forestgreen;
+       border-style: solid;
+       padding: 30px;
+       margin: 30px;
+       border-top: 0;
+       border-left: 0;
+       border-right: 0;
+  
+ }
+
+ .article p .imp{
+  font-size: 50px;
+  font-size: 2rem;
+  line-height: 2em;
+ }
+ .img{
+  height: 50vh;
+ }
